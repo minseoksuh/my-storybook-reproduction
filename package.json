@@ -1,0 +1,56 @@
+{
+  "name": "vue3-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.5.0-alpha.60",
+    "@storybook/addon-docs": "^6.5.0-alpha.60",
+    "@storybook/addon-essentials": "^6.5.0-alpha.60",
+    "@storybook/addon-links": "^6.5.0-alpha.60",
+    "@storybook/builder-webpack5": "^6.5.0-alpha.60",
+    "@storybook/manager-webpack5": "^6.5.0-alpha.60",
+    "@storybook/vue3": "^6.5.0-alpha.60",
+    "@vue/cli-plugin-babel": "~4.5.17",
+    "@vue/cli-plugin-eslint": "~4.5.17",
+    "@vue/cli-service": "~4.5.17",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.4",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "vue-loader": "^16.8.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "packageManager": "yarn@3.2.0"
+}
